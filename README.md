@@ -1,7 +1,7 @@
 ARP-Windows-Service
 ===================
 
-The goal of this project is to create a windows service, which will detect when a phone - with known MAC or IP address - is connected to the local area network, sending the result over serial every 5 seconds.
+The goal of this project is to create a windows service, which will detect when a phone - with known MAC or IP address - is connected to the local area network, sending the detection result over a serial port to the MSP430 Launchpad. Code for this will be in a separate repository.
 
 ###Creating a Windows Service
 
