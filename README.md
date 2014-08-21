@@ -20,3 +20,12 @@ Finally, to communicate with a serial port, the examples given by microsoft on t
 ###UPDATES
 
 This page will be updated with links and unpredicted shortcomings as they are encountered.
+
+
+###Issues in Developement - 8/21/14
+
+This README will serve as a journal of sorts to document my methodology in approaching unknown projects. The extent of my programming experience thus far has been: Windows command prompt based applications in C, basic serial and GUI programming in C++ using Visual Studio, Java programming I and II - basic to semi-advanced ideas in OO programming, basic programming in C for microcontrollers (MSP430 and ATMega644p targets), MIPS using MARS emulation plaform and basic webprogramming (PHP, HTML, CSS, MySQL, JavaScript).
+
+*This being said, a project such as this may be mildly overkill for the end application, but that will be determined along the way.*
+
+
