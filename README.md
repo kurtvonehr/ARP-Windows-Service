@@ -28,4 +28,20 @@ This README will serve as a journal of sorts to document my methodology in appro
 
 *This being said, a project such as this may be mildly overkill for the end application, but that will be determined along the way.*
 
+###Issues in Developement - 8/22/14
+
+Resolved several issues. 
+
+Instructions for creating a windows service with timed event:
+
+http://blogs.msdn.com/b/bclteam/archive/2005/03/15/396428.aspx
+
+Instructions for compiling C# without using Visual Studio. Poor mans version to develope for .NET - works well!
+
+http://news.kynosarges.org/2013/02/13/programming-net-4-5-without-vs2012/
+
+Currently struggling with the issue of ARP cache not updating after the device is disconnected. The 'arp -a' is easily parsed in c# using a substring compare with the MAC address of choice. Unsure of whether the cached should be deleted everytime I call 'arp' or if a solution using the ping library can be obtained. I do not want to degrade the rest of my networking applications by doing this. After pinging the device, the arp cache is updated, but if I ping every device on my network, the default ping options take very long to complete. Ping class will be investigated further.
+
+
+
 
