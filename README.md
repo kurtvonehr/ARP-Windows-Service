@@ -26,7 +26,7 @@ This page will be updated with links and unpredicted shortcomings as they are en
 
 This README will serve as a journal of sorts to document my methodology in approaching unknown projects. The extent of my programming experience thus far has been: Windows command prompt based applications in C, basic serial and GUI programming in C++ using Visual Studio, Java programming I and II - basic to semi-advanced ideas in OO programming, basic programming in C for microcontrollers (MSP430 and ATMega644p targets), MIPS using MARS emulation plaform and basic webprogramming (PHP, HTML, CSS, MySQL, JavaScript).
 
-*This being said, a project such as this may be mildly overkill for the end application, but that will be determined along the way.*
+*This being said, an approach such as this may be mildly overkill for the end application, but that will be determined along the way.*
 
 ###Issues in Developement - 8/22/14
 
@@ -46,12 +46,12 @@ As for the ARP code suggested in the original project proposal, .NET SDK does no
 
 ###Issues in Developement - 8/23/14
 
-**Finished proof of concept code. Everything works as I originally intended.**
+**Finished proof of concept code. Everything works as originally intended.**
 
 
 #### Windows Service Issues
 
-Addressing the ARP Cache Table issue, pinging the first 25 addresses on the local network refreshes the table. The DHCP on this particular router is configured to only assign addresses within the range of xxx.xxx.xxx.1-25, thus saving time in determining the active devices currently connected to the network. Without utilizing visual studio as my IDE, taking advantage of built in features proved difficult, features such as adding an installer to the desired service code was confusing for the first timer. 
+Addressing the ARP Cache Table issue, pinging the first 25 addresses on the local network refreshes the table. The DHCP on this particular router is configured to only assign addresses within the range of xxx.xxx.xxx.1-25, thus saving time in determining the active devices currently connected to the network. Without utilizing visual studio as my IDE, taking advantage of built in features proved difficult, features such as adding a configured installer to the desired service code was confusing with no prior experience. 
 
 ####MSP430 Issues
 
@@ -59,9 +59,8 @@ Addressing the ARP Cache Table issue, pinging the first 25 addresses on the loca
 
 Issues that need addressing:
 
-*Windows Service depends on the MSP430 being connected to COM5, need to scan ports to verify that MSP430 is indeed connected to that port before opening and sending data.
-*Address whether or not pinging is the best way to update ARP cache. 
-*Determine if this method of finding device is the most efficient and secure.
-*
+1.Windows Service depends on the MSP430 being connected to COM5, need to scan ports to verify that MSP430 is indeed connected to that port before opening and sending data.
+2.Address whether or not pinging is the best way to update ARP cache. 
+3.Determine if this method of finding device is the most efficient and secure.
 
 
