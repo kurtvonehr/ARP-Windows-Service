@@ -46,9 +46,16 @@ As for the ARP code suggested in the original project proposal, .NET SDK does no
 
 ###Issues in Developement - 8/23/14
 
-**Finished proof of concept code. Everything works as I originally intended.** Whether or not it was coded properly is yet to be determined. 
+**Finished proof of concept code. Everything works as I originally intended.**
 
-Addressing the ARP Cache Table issue, I ping 25 addresses on my local network, which refreshes the table.
+
+#### Windows Service Issues
+
+Addressing the ARP Cache Table issue, pinging the first 25 addresses on the local network refreshes the table. The DHCP on this particular router is configured to only assign addresses within the range of xxx.xxx.xxx.1-25, thus saving time in determining the active devices currently connected to the network. Without utilizing visual studio as my IDE, taking advantage of built in features proved difficult, features such as adding an installer to the desired service code was confusing for the first timer. 
+
+####MSP430 Issues
+
+
 
 Issues that need addressing:
 
