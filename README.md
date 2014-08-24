@@ -59,8 +59,8 @@ Addressing the ARP Cache Table issue, pinging the first 25 addresses on the loca
 
 Issues that need addressing:
 
-1.Windows Service depends on the MSP430 being connected to COM5, need to scan ports to verify that MSP430 is indeed connected to that port before opening and sending data.
-2.Address whether or not pinging is the best way to update ARP cache. 
-3.Determine if this method of finding device is the most efficient and secure.
+1. Windows Service depends on the MSP430 being connected to COM5, need to scan ports to verify that MSP430 is indeed connected to that port before opening and sending data.
+2. Address whether or not pinging is the best way to update ARP cache. 
+3. Determine if this method of finding device is the most efficient and secure.
 
 
