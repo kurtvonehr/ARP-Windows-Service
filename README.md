@@ -44,6 +44,17 @@ Currently struggling with the issue of ARP cache not updating after the device i
 
 As for the ARP code suggested in the original project proposal, .NET SDK does not contain compiler for C, addtionally C# contains all of the libraries neccessary for this project, therefore the original idea of using the C code from the linux kernel will be scrapped.
 
+###Issues in Developement - 8/23/14
 
+**Finished proof of concept code. Everything works as I originally intended.** Whether or not it was coded properly is yet to be determined. 
+
+Addressing the ARP Cache Table issue, I ping 25 addresses on my local network, which refreshes the table.
+
+Issues that need addressing:
+
+*Windows Service depends on the MSP430 being connected to COM5, need to scan ports to verify that MSP430 is indeed connected to that port before opening and sending data.
+*Address whether or not pinging is the best way to update ARP cache. 
+*Determine if this method of finding device is the most efficient and secure.
+*
 
 
